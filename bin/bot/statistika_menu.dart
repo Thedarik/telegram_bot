@@ -8,7 +8,7 @@ void statistikaMenu(TeleDart teledart, ReplyKeyboardMarkup mainMenu) {
       '📊 @darsbepulbot statistikasi!\n\n'
       '👥 Botdagi barcha obunachilar: 3872 kishi.\n'
       '✅ Faol obunachilar soni: 837 kishi.\n\n'
-      '🔜 Oxirgi 24 soatda: 2 obunachi qo\'shildi.\n'
+      '🔜 Oxirgi 24 soatda: 6 obunachi qo\'shildi.\n'
       '🔝 Oxirgi 1 oyda: 299 obunachi qo\'shildi.\n\n'
       '📆 Bot ishga tushganiga: 93 kun bo\'ldi.\n\n'
       '📆 Bot oxirgi marta 3 kun oldin yangilangan\n\n',
