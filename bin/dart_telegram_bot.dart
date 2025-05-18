@@ -24,7 +24,7 @@ import 'bot/statistika_menu.dart';
 import 'bot/aloqa_menu.dart';
 
 void main() async {
-  const String botToken = '7560312871:AAGugFgES-hJbRrREQvYv5W4oPCgeVQs1Hw';
+  const String botToken = '7823203949:AAE5Ryfa6yAA3y0FKODW7nPKwUtKaW5QaJg';
   final telegram = Telegram(botToken);
   final username = (await telegram.getMe()).username;
   final teledart = TeleDart(botToken, Event(username!));
