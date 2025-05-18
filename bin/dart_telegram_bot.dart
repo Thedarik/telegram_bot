@@ -24,7 +24,7 @@ import 'bot/statistika_menu.dart';
 import 'bot/aloqa_menu.dart';
 
 void main() async {
-  const String botToken = '7823203949:AAE5Ryfa6yAA3y0FKODW7nPKwUtKaW5QaJg';
+  const String botToken = '7336719075:AAFScROTO5aJPsp6oud2gD9UJaR3KoSNvR8';
   final telegram = Telegram(botToken);
   final username = (await telegram.getMe()).username;
   final teledart = TeleDart(botToken, Event(username!));
@@ -41,7 +41,7 @@ void main() async {
         [KeyboardButton(text: '📚 Nazariy ma‘lumotlar'), KeyboardButton(text: '🎓 Qisqa Darslar')],
         [KeyboardButton(text: '📊 Excel dasturlari'), KeyboardButton(text: '➕ Kengaytmalar')],
         [KeyboardButton(text: '✅ Topshiriqlar'), KeyboardButton(text: '🔗 Manbalar')],
-        [KeyboardButton(text: '💼 Microsoft Office'), KeyboardButton(text: '📊 Google Sheets')],
+        [KeyboardButton(text: '📔 Microsoft Office'), KeyboardButton(text: '📊 Google Sheets')],
         [KeyboardButton(text: '📝 Docs'), KeyboardButton(text: '🎞️ Slider')],
         [KeyboardButton(text: '📄 PDF Test tuzish'), KeyboardButton(text: '🖨️ Printer scanner')],
         [KeyboardButton(text: '📚 Kitob va qo‘llanmalar'), KeyboardButton(text: '📈 Statistika')],
