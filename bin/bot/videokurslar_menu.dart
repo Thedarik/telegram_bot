@@ -8,6 +8,7 @@ void videokurslarMenu(TeleDart teledart) {
       keyboard: [
         [KeyboardButton(text: 'Excel'), KeyboardButton(text: 'Word')],
         [KeyboardButton(text: 'PowerPoint'), KeyboardButton(text: 'Barcha kurslar')],
+        [KeyboardButton(text: 'Orqaga')],
       ],
       resizeKeyboard: true,
       oneTimeKeyboard: false,
